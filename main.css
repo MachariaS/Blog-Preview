@@ -1,0 +1,124 @@
+:root {
+  --yellow-primary-color: hsl(47, 88%, 63%);
+  --white-secondary-color: hsl(0, 0%, 100%);
+  --gray-500-secondary-color: hsl(0, 0%, 42%);
+  --gray-950-secondary-color: hsl(0, 0%, 7%);
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Figtree, sans-serif;
+  background-color: var(--yellow-primary-color);
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-container {
+  background-color: var(--white-secondary-color);
+  padding: 24px;
+  max-width: 384px;
+  min-height: 522px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.illustrator-card {
+  border-radius: 10px;
+  display: flex;
+  height: 200px;
+  width: 336px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+}
+.illustrator-img {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+
+.card-content {
+  margin-top: 24px;
+  margin-left: 8px;
+  width: 336px;
+  height: 194px;
+}
+.title {
+  background-color: var(--yellow-primary-color);
+  width: 82px;
+  padding: 7px;
+  display: block;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.publisher-descrition {
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.article-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.article-descrition {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.author {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.author img {
+  width: 40px;
+}
+
+.author span {
+  font-weight: 600;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ... your existing CSS ... */
+
+@media (max-width: 480px) {
+  .main-container {
+    width: 90%; /* Adjusted width for mobile */
+    padding: 16px; /* Adjusted padding for mobile */
+  }
+
+  .article-title {
+    font-size: 22px; /* Adjusted font size for mobile */
+  }
+  .article-descrition {
+    font-size: 15px; /* Adjusted font size for mobile */
+  }
+}
