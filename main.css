@@ -30,7 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .illustrator-card {
@@ -95,7 +95,7 @@ body {
 .author span {
   font-weight: 600;
 }
-
+/* 
 .attribution {
   position: fixed;
   bottom: 10px;
@@ -105,7 +105,7 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
 
 /* ... your existing CSS ... */
 
