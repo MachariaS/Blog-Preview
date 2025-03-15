@@ -30,6 +30,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  border: 1px solid var(--gray-500-secondary-color);
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 1);
 }
 
