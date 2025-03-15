@@ -37,16 +37,14 @@ body {
 .illustrator-card {
   border-radius: 10px;
   display: flex;
-  height: 200px;
-  width: 336px;
+  max-height: 200px;
+  max-width: 336px;
   align-items: center;
   justify-content: center;
   margin-top: -60px;
 }
 .illustrator-img {
   border-radius: 10px;
-  width: 100%;
-  height: 200px;
   align-items: center;
   justify-content: center;
   object-fit: cover;
